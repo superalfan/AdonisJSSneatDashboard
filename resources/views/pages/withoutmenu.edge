@@ -1,0 +1,115 @@
+@include('layouts/userDashboard')
+<body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-content-navbar layout-without-menu">
+      <div class="layout-container">
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Navbar -->
+
+         @include('layouts/userNavbar')
+
+          <!-- / Navbar -->
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <!-- Layout Demo -->
+              <div class="layout-demo-wrapper">
+                {{-- <div class="layout-demo-placeholder">
+                  <img
+                    src="../assets/img/layouts/layout-without-menu-light.png"
+                    class="img-fluid"
+                    alt="Layout without menu"
+                    data-app-light-img="layouts/layout-without-menu-light.png"
+                    data-app-dark-img="layouts/layout-without-menu-dark.png"
+                  />
+                </div> --}}
+                <div class="row mb-5">
+                  <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">AdonisJS + Black Dashboard</h5>
+                        <h6 class="card-subtitle text-muted">Template from Creative</h6>
+                        <h6 class="card-subtitle text-muted">Framework with AdonisJS</h6>
+                      </div>
+                      <img class="img-fluid" src="../assets/img/elements/img01.png" alt="Card image cap" />
+                      <div class="card-body">
+                        <p class="card-text">Free version integrated by Superalfan A & D</p>
+                        <a href="javascript:void(0);" class="card-link">Card link</a>
+                        <a href="javascript:void(0);" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">AdonisJS + Black Dashboard</h5>
+                        <h6 class="card-subtitle text-muted">Template from Creative</h6>
+                        <h6 class="card-subtitle text-muted">Framework with AdonisJS</h6>
+                      </div>
+                      <img class="img-fluid" src="../assets/img/elements/img01.png" alt="Card image cap" />
+                      <div class="card-body">
+                        <p class="card-text">Free version integrated by Superalfan A & D</p>
+                        <a href="javascript:void(0);" class="card-link">Card link</a>
+                        <a href="javascript:void(0);" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">AdonisJS + Black Dashboard</h5>
+                        <h6 class="card-subtitle text-muted">Template from Creative</h6>
+                        <h6 class="card-subtitle text-muted">Framework with AdonisJS</h6>
+                      </div>
+                      <img class="img-fluid" src="../assets/img/elements/img01.png" alt="Card image cap" />
+                      <div class="card-body">
+                        <p class="card-text">Free version integrated by Superalfan A & D</p>
+                        <a href="javascript:void(0);" class="card-link">Card link</a>
+                        <a href="javascript:void(0);" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title">AdonisJS + Black Dashboard</h5>
+                        <h6 class="card-subtitle text-muted">Template from Creative</h6>
+                        <h6 class="card-subtitle text-muted">Framework with AdonisJS</h6>
+                      </div>
+                      <img class="img-fluid" src="../assets/img/elements/img01.png" alt="Card image cap" />
+                      <div class="card-body">
+                        <p class="card-text">Free version integrated by Superalfan A & D</p>
+                        <a href="javascript:void(0);" class="card-link">Card link</a>
+                        <a href="javascript:void(0);" class="card-link">Another link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout-demo-info">
+                  <h4>Layout without Menu (Navigation)</h4>
+                  <button class="btn btn-primary" type="button" onclick="history.back()">Go Back</button>
+                </div>
+              </div>
+              <!--/ Layout Demo -->
+            </div>
+            <!-- / Content -->
+
+            <!-- Footer -->
+            @include('layouts/userFooter')
+            <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!-- Content wrapper -->
+        </div>
+        <!-- / Layout page -->
+      </div>
+    </div>
+    <!-- / Layout wrapper -->
+
+   @include('components/scripts')
+</body>

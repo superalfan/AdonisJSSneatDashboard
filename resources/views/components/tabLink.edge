@@ -1,0 +1,15 @@
+<li class="nav-item">
+    <a class="nav-link {{ request.url().startsWith('/account') ? 'active' : '' }}" href="/account"
+      ><i class="bx bx-user bx-sm me-1_5"></i> Account</a
+    >
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {{ request.url().startsWith('/notifications') ? 'active' : '' }}" href="/notifications"
+      ><i class="bx bx-bell bx-sm me-1_5"></i> Notifications</a
+    >
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {{ request.url().startsWith('/connections') ? 'active' : '' }}" href="/connections"
+      ><i class="bx bx-link-alt bx-sm me-1_5"></i> Connections</a
+    >
+  </li>
