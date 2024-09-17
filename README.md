@@ -4,6 +4,8 @@ AdonisJS 6 + Sneat Dashboard
 
 Saya gabungkan Framework AdonisJS V6 dengan Sneat Dashboard Versi Free
 
+[![Sneat - Bootstrap 5 HTML Admin Template Demo Screenshot](https://cdn.themeselection.com/ts-assets/sneat/sneat-bootstrap-html-admin-template-free/banner/banner.png)](https://themeselection.com/item/sneat-free-bootstrap-html-admin-template/)
+
 silahkan download versi free ini di repository berikut : https://github.com/superalfan/AdonisJSSneatDashboard
 
 git clone https://github.com/superalfan/AdonisJSSneatDashboard
